@@ -1,6 +1,6 @@
 return {
   "RRethy/vim-illuminate",
-  lazy=true,
+  lazy=false,
   config = function()
     require('illuminate').configure({})
   end
